@@ -12,7 +12,8 @@ public class MapExample1 {
 		map.put(2, "Jai");
 		map.put(6, "Amit");
 		// Traversing Map
-		Set set = map.entrySet();// Converting to Set so that we can traverse
+		
+		Set set = map.entrySet();
 		Iterator itr = set.iterator();
 		while (itr.hasNext()) {
 			// Converting to Map.Entry so that we can get key and value separately
