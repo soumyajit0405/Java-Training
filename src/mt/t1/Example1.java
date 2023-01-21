@@ -9,6 +9,6 @@ public class Example1 extends Thread {
 		Example1 t1 = new Example1();
 		System.out.println(t1.getState());
 		t1.start();
-		System.out.println(t1.getState());
+		System.out.println(Thread.currentThread().isDaemon());
 	}
 }

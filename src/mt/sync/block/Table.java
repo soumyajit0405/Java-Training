@@ -2,7 +2,7 @@ package mt.sync.block;
 
 class Table {
 	void printTable(int n) {
-		synchronized (this) {// synchronized block
+		synchronized (this) {
 			for (int i = 1; i <= 5; i++) {
 				System.out.println(n * i);
 				try {
